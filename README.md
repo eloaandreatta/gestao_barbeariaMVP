@@ -38,3 +38,16 @@ Sugestões de commits convencionais: `feat: adiciona registro de atendimento`, `
 
 ## Observação acadêmica
 As duas rodadas de validação em campo, feedbacks e ajustes devem ser registrados com evidências reais do representante externo; não estão simulados neste repositório.
+
+## Revisão técnica do MVP
+
+Durante a revisão técnica foram avaliados aspectos de arquitetura,
+legibilidade, segurança e manutenção do sistema.
+
+O projeto utiliza uma arquitetura monolítica em camadas com Django,
+mantendo separadas as responsabilidades de apresentação, regras de
+negócio e persistência de dados.
+
+Também foram revisadas as validações dos formulários, autenticação,
+proteção das rotas e organização do código, buscando manter o MVP
+simples, seguro e de fácil manutenção.
